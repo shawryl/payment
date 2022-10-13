@@ -1,4 +1,4 @@
-package pl.payment.app.domain.model;
+package pl.payment.app.domain.model.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -16,7 +16,7 @@ import javax.validation.constraints.Size;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Users {
+public class User {
     @Id//primary key w tabeli
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
